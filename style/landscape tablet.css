@@ -1,0 +1,84 @@
+
+/* Portrait tablets and small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .white-btn, .btn-blue{
+        padding: .5rem 2rem;
+        border-radius: var(--btn-radius);
+        font-size: 1.1rem;
+        font-weight: 43.75rem;
+        margin: 0 auto;
+        display: block;
+    }
+    nav,.healthcare,.provider-wrapper,.app-wrapper{
+        flex-direction: column;
+    }
+    .cards,.article-cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    header nav ul li{
+        margin: 1rem;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .img img{
+        width:20rem;
+    }
+    .card,.article-card{
+      width: 45%;
+    }
+    .healthcare .health-content{
+        width: 90%;
+     }
+     .health-content{
+        text-align: center;
+     }
+     .healthcare h2{
+        font-size: 1.5rem;
+     }
+     .provider{
+        min-width: 100%;
+        padding: 0 2rem;
+        text-align: center;
+    }
+    .provider span ,  .app span{
+        margin: 0px auto;
+     }
+     .app{
+        min-width: 100%;
+        padding: 0 2rem;
+    }
+     .feedback .feedback-content{
+        flex-direction: column;
+        padding: 0;
+     }
+     .figure-img{
+        padding-left: 2.375rem;
+        width: 100%;
+     }
+     .figure-caption{
+        width: 87%;
+     }
+     .figure-caption p {
+        font-size: 1.188rem;
+        padding-bottom: 2rem;
+    }
+    .feedback .dots .dot ,.feedback .dots .arrow {
+        margin: 0 1rem;
+    }
+    
+    .footer-container{
+     align-items: flex-start;
+    }
+    .footer-container .img{
+     width: 100%;
+    }
+    .footer-container div{
+     margin-bottom: 2rem;
+    }
+}

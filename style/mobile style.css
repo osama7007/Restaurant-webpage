@@ -1,0 +1,81 @@
+/* media query  */
+@media (max-width: 480px) {
+    nav,.healthcare,.cards ,.provider-wrapper,.app-wrapper,.article-cards{
+        flex-direction: column;
+    }
+    header nav ul li{
+        display: none;
+    }
+    
+    .footer-container{
+        flex-wrap: wrap;
+
+    }
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .img img{
+        width:20rem;
+    }
+    .card,.article-card{
+      width: 95%;
+    }
+ 
+    .healthcare .health-content{
+        width: 90%;
+     }
+     .health-content{
+        text-align: center;
+     }
+     .healthcare h2{
+        font-size: 1.5rem;
+     }
+     .provider{
+        min-width: 100%;
+        padding: 0 2rem;
+        text-align: center;
+    }
+    .provider span ,  .app span{
+        margin: 0px auto;
+     }
+     .app{
+        min-width: 100%;
+        padding: 0 2rem;
+    }
+     .feedback .feedback-content{
+        flex-direction: column;
+        padding: 0;
+     }
+     .figure-img{
+        padding-left: 2.375rem;
+        width: 100%;
+     }
+     .figure-caption{
+        width: 87%;
+     }
+     .figure-caption p {
+        font-size: 1.188rem;
+        padding-bottom: 2rem;
+    }
+    .feedback .dots .dot ,.feedback .dots .arrow {
+        margin: 0 1rem;
+    }
+
+    .footer-container{
+     align-items: flex-start;
+    }
+    .footer-container .img{
+     width: 100%;
+    }
+    .footer-container div{
+     margin-bottom: 2rem;
+    }
+    .white-btn, .btn-blue{
+        padding: .5rem 2rem;
+        border-radius: var(--btn-radius);
+        font-size: 1.1rem;
+        margin: 0 auto;
+        display: block;
+    }
+}
